@@ -1,0 +1,28 @@
+{
+  "name": "gj-batched-repeatable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf .rpt2_cache dist",
+    "prebuild": "npm run clean",
+    "build": "rollup -c rollup.config.js"
+  },
+  "author": "Gary Justin <gejustin1868@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular": "^1.6.39",
+    "angular": "^1.6.7",
+    "rollup": "^0.52.0",
+    "rollup-plugin-typescript2": "^0.8.4",
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "angular": "^1.6.7"
+  },
+  "files": [
+    "dist",
+    "src",
+    "*.*"
+  ]
+}
