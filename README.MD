@@ -1,5 +1,5 @@
 # gj-batched-repeatable
-Small AngularJS library for easy batching of ng-repeat renders.
+Small AngularJS library for easy batching of ng-repeat renders. Heavily inspired by [Todd Motto](https://github.com/toddmotto).
 
 **Notes:**
   1. This project is currently under development and is not recommended for production use.
