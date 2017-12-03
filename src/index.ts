@@ -1,4 +1,3 @@
-import * as angular from 'angular';
-import { moduleFactory } from './batched-repeatable.module';
-
-moduleFactory(angular);
+export * from './batched-repeatable-factory.service';
+export * from './batched-repeatable.class';
+export * from './batched-repeatable.module';

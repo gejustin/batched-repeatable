@@ -1,5 +1,6 @@
+import * as angular from 'angular';
 import { BatchedRepeatableFactory } from './batched-repeatable-factory.service';
 
-export const moduleFactory = (angular: ng.IAngularStatic) => angular
+export const batchedRepeatableModule = angular
     .module('gj-batched-repeatable', [])
     .service('$batchedRepeatableFactory', BatchedRepeatableFactory);

@@ -6,7 +6,7 @@ export class BatchedRepeatableFactory {
 
     constructor(private $timeout: ng.ITimeoutService) { }
 
-    public createBatchedRepeatable<T>(collection: T[], batchSize?: number) {
+    public create<T>(collection: T[], batchSize?: number) {
         return new BatchedRepeatable<T>(collection, batchSize, this.onDispatch.bind(this));
     }
 

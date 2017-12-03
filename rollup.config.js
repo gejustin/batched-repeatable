@@ -6,6 +6,7 @@ export default {
         file: './dist/gj-batched-repeatable.js',
         format: 'umd',
     },
+    name: 'gj-batched-repeatable',
     plugins: [
         typescript(),
     ],
